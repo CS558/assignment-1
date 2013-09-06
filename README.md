@@ -36,7 +36,7 @@ For each particle, you should update the system using the rule that:
 position[i] += dt * velocity[i]
 ```
 
-If a particle hits one of the sides of the box or crosses the ground plane, then the position is integrated up to the time of intersection and the velocity is reflected by the normal of the plane.  The shape of the box is determined by the following system of inequalities:
+If a particle hits one of the sides of the box or crosses the ground side, then the position is integrated up to the time of intersection and the velocity is reflected by the normal of the side.  The shape of the box is determined by the following system of inequalities:
 
 * `-1 < x < 1`
 * `y < 1`
