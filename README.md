@@ -78,3 +78,8 @@ for(var t=0.0; i<1.0; t+=dt) {
 ```
 
 You should write at least two different test cases of your own to supplement this.
+
+## Submission
+To submit your assignment, use moodle and upload a zipped archive of all the above files.
+
+
