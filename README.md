@@ -45,7 +45,7 @@ If a particle hits one of the sides of the box or crosses the ground side, then 
 You can assume that:
 
 * The position of all particles will be within the box
-* The second component of the ground normal will always be less than 0.
+* The second component of the ground normal will always be greater than 0.
 
 In this project you can use any modules on npm that you would like, or if you prefer you can also write and publish your own modules if you think they will help you with this assignment.
 
