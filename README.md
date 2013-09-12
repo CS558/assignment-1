@@ -72,8 +72,8 @@ for(var t=0.0; i<1.0; t+=dt) {
   var nstate = stepSimulator(position, velocity, ground, dt)
   position = nstate.position
   velocity = nstate.velocity
-  assert.equal(position[0], 0.0)
-  assert.equal(position[1], 1.0 - Math.abs(t - 0.5))
+  assert.ok(Math.abs(position[0]) < 1e-6)
+  assert.ok(Math.abs(position[1] - 1.0 + Math.abs(t - 0.5)) < 1e-6)
 }
 ```
 
