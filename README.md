@@ -83,3 +83,29 @@ You should write at least two different test cases of your own to supplement thi
 To submit your assignment, use moodle and upload a zipped archive of all the above files.
 
 
+## Some hints
+To figure out how to reflect the velocities, think back to the first lecture.  Recall that if we have a vector and we want to reflect it about a normal n, the formula is:
+
+```
+v_reflected = v - 2 * n * dot(n, v) / dot(v, v)
+```
+
+For more information, see the following wiki article:
+
+* [Reflection across a line in a plane](http://en.wikipedia.org/wiki/Reflection_(mathematics)#Reflection_across_a_line_in_the_plane)
+
+To figure out when a particle intersects one of the bounding lines, you need to do a bit of algebra.  Remember that the position of the particle at time $t$ is given by,
+
+```
+p(t) = p_0 + t * v_0
+```
+
+Where p_0 is the initial position at the start of the time step and v_0 is the initial velocity.  To figure out the point in time when the particle hits one of the walls, we need to solve for t in the following equation:
+
+```
+dot(p(t) - d * n, n) = 0
+```
+
+where d is the distance from the line to the origin and n is the unit normal of the line.
+
+
