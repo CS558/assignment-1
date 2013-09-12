@@ -2,7 +2,7 @@ Assignment 1: Introduction to node.js and JavaScript
 ====================================================
 For this first assignment, your goal is to set up node.js and npm on your system, and to get familiar with the basics of how to use modules.  The intention here is to just focus on understanding the basics, and so it is going to be a little more structured than usual.  Also unlike in future assignments, this assignment will be broken up into stages.
 
-# Stage 1  (due 9/12/13)
+# Stage 1  (due 9/13/13)
 In the first stage, your goal is to implement an extremely simplified physics simulation.  You will be modeling the motion of a collection of non-interacting moving particles in a box.  You can assume that there is no friction and no external forces (ie gravity).
 
 To do this, you should make a module which defines a function that integrates the state of the system forward by some time step.  You should export this function as a module.  Here is a method signature to help get you started
