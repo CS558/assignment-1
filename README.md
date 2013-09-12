@@ -92,7 +92,7 @@ v_reflected = v - 2 * n * dot(n, v) / dot(v, v)
 
 For more information, see the following wiki article:
 
-* [Reflection across a line in a plane](http://en.wikipedia.org/wiki/Reflection_(mathematics)#Reflection_across_a_line_in_the_plane)
+* [Reflection across a line in a plane](http://en.wikipedia.org/wiki/Reflection_\(mathematics\)#Reflection_across_a_line_in_the_plane)
 
 To figure out when a particle intersects one of the bounding lines, you need to do a bit of algebra.  Remember that the position of the particle at time $t$ is given by,
 
