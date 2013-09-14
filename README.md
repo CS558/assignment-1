@@ -108,4 +108,30 @@ dot(p(t) - d * n, n) = 0
 
 where d is the distance from the line to the origin and n is the unit normal of the line.
 
+# Stage 2 (due 9/20/13)
+The goal for the second part of this assignment is to cover the remaining tools.  Your main objective here is to create an account on github, upload your project, and to build a visualization for the simulation.
 
+## Visualization requirements
+Your visualization will display an animation showing the state of the simulation as the particles evolve over time.  At minimum, it should have the following features:
+
+* An input where the initial position of the particles can be specified
+* An input where the initial velocity of the particles can be specified
+* An input where the ground normal can be specified
+* An input where the time step per tick is specified
+* A button that resets the state of all the particles to the initial conditions
+* A canvas object that renders the state of the simulation
+
+Your animation should advance the state of the system using the module you wrote in part 1 by a the input time step.  In the canvas object, you should draw at minimum:
+
+* The position of all the particles
+* The 4 sides of the box containing the particles
+
+
+## Publishing to GitHub
+Unlike in stage 1, for the second part of assignment 1, you will submit your code by publishing it on GitHub.  To do this, you will need to create an account on GitHub ([you can find instructions on how to do this here](https://github.com/edu)).  Once this is done, you should create a repository following the instructions in [lecture 3](https://github.com/CS558/technology-lecture-3-git) with all of your code.  Once this is done, email me a link to your project with the complete repository.
+
+## Some hints
+For instructions on how to run your modules within a browser, you should follow the notes from [lecture 4](https://github.com/CS558/technology-lecture-4-dom).  Regarding making the HTML5 interface, you may find the [textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) and [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input) tags useful.  
+
+## Questions
+For any questions on this assignment, you should open an issue on github, using the link on the sidebar.
