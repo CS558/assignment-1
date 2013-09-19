@@ -87,7 +87,7 @@ To submit your assignment, use moodle and upload a zipped archive of all the abo
 To figure out how to reflect the velocities, think back to the first lecture.  Recall that if we have a vector and we want to reflect it about a normal n, the formula is:
 
 ```
-v_reflected = v - 2 * n * dot(n, v) / dot(v, v)
+v_reflected = v - 2 * n * dot(n, v) / dot(n, n)
 ```
 
 For more information, see the following wiki article:
